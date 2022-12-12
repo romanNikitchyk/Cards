@@ -60,12 +60,14 @@ export const loginTC = (loginData: LoginFormDataType): AppThunk => {
       .then((res) => {
         dispatch(loginAC(res.data, true))
         dispatch(authMeAC(true))
+        console.log('res', res)
       })
       .catch((e) => {
         const error = e.response
           ? e.response.data.error
           : (e.message + ', more details in the console')
         dispatch(setAppAlertAC({message: error, type: 'error'}))
+        dispatch(authMeAC(true))
       })
   }
 }
@@ -83,6 +85,7 @@ export const logOutTC = (): AppThunk => {
           ? e.response.data.error
           : (e.message + ', more details in the console')
         dispatch(setAppAlertAC({message: error, type: 'error'}))
+        dispatch(authMeAC(true))
       })
   }
 }
