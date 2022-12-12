@@ -1,0 +1,60 @@
+.default {
+  position: relative;
+
+
+}
+.default select {
+  cursor: pointer;
+
+  padding: 4px 19px 5px 7px;
+
+  font-family: inherit;
+  font-size: 0.75em;
+  line-height: 125%;
+
+  background-color: #fff;
+  border: 1px solid #ececed;
+  border-radius: 2px;
+
+  transition: all 0.3s ease-in-out 0s;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.default::after {
+  pointer-events: none;
+  content: '';
+
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 5px;
+  transform: translate(0, -20%);
+
+  box-sizing: border-box;
+  width: 8px;
+  height: 5px;
+
+  background-image: url("data:image/svg+xml,%3Csvg width='8' height='5' viewBox='0 0 8 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L4 4L7 1' stroke='black'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.default:hover select {
+  border-color: #e0e0e0;
+}
+
+
+.default select:disabled {
+  color: #003299;
+
+  opacity: 0.3;
+  background-color: #c3dafe;
+}
+
+.default select:focus {
+  border-color: #003299;
+  outline: none;
+}
