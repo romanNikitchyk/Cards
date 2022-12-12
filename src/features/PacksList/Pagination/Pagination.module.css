@@ -1,0 +1,94 @@
+
+.pagination {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.slicedPages{}
+
+.arrow {
+    cursor: pointer;
+
+    width: 6px;
+    height: 9px;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.defaultBtnPage {
+    cursor: pointer;
+    
+    min-width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    padding: 2px 5px;
+
+    font-family: inherit;
+    font-size: 0.75em;
+    line-height: 125%;
+
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+.defaultBtnPage:last-child {
+    margin-right: 0;
+}
+
+.defaultBtnPage:hover {
+    color: white;
+
+    background-color: #e0e0e0;
+}
+
+.selectedPage:disabled {
+    cursor: context-menu;
+
+    color: black;
+
+    opacity: 1;
+    background-color: #e0e0e0;
+}
+
+.previousBtn {
+    margin-right: 12px;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 1L1 4.43182L5 7.93306' stroke='black'/%3E%3C/svg%3E ");
+}
+.nextBtn {
+    margin-left: 12px;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 7.93311L5 4.50129L1 1.00004' stroke='black'/%3E%3C/svg%3E ");
+}
+
+.previousBtn:hover {
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 1L1 4.43182L5 7.93306' stroke='%23366EFF'/%3E%3C/svg%3E ");
+}
+.nextBtn:hover {
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 7.93311L5 4.50129L1 1.00004' stroke='%23366EFF'/%3E%3C/svg%3E ");
+}
+
+.firstPage {
+    margin-right: 0;
+
+}
+.lastPage {
+    margin-left: 0;
+}
+
+.points {
+    cursor: context-menu;
+
+    margin: 0 12px;
+}
+
+
+.pageCount {
+    margin-left: 30px;
+}

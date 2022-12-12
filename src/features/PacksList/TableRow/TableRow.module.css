@@ -1,0 +1,26 @@
+.rowTableData {
+    width: 1008px;
+    height: 48px;
+
+    border:  1px solid #D9D9D9;
+    background: #FFFFFF;
+    text-align: left;
+    font-size: 14px;
+   word-break: break-all;
+
+}
+.Name {
+    width: 267px;
+    cursor: pointer
+}
+.Name :hover {
+    opacity: 0.8;
+background-color: #61dafb;
+}
+
+
+.gradeWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

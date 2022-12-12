@@ -1,0 +1,29 @@
+
+.wrapInput {
+    position: relative;
+
+    display: inline-block;
+
+    width: 100%;
+
+}
+.wrapInput input{
+    width: 100%;
+}
+
+.button {
+    cursor: pointer;
+
+    position: absolute;
+    top: 5px;
+    right: 7px;
+
+    width: 24px;
+    height: 24px;
+
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+
+    transition: all 0.15s ease-in-out 0s;
+}

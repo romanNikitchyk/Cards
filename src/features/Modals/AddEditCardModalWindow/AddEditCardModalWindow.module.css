@@ -1,0 +1,18 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TextField {
+    padding-left: 20px;
+    position: absolute;
+}
+
+.buttons {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    position: inherit;
+    margin-top: 125px;
+}

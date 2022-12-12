@@ -1,0 +1,76 @@
+.link {
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 168px;
+    top: 64px;
+    display: inline-block;
+
+    margin: 24px 0 12px 0;
+    padding-left: 32px;
+
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 171%;
+    color: #000;
+    text-decoration: none;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.link:hover {
+    color: #DD3636
+}
+
+.link:before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 24px;
+    height: 24px;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400.004 400.004'%3E%3Cpath d='M382.688 182.686H59.116l77.209-77.214c6.764-6.76 6.764-17.726 0-24.485-6.764-6.764-17.73-6.764-24.484 0L5.073 187.757c-6.764 6.76-6.764 17.727 0 24.485l106.768 106.775a17.252 17.252 0 0012.242 5.072c4.43 0 8.861-1.689 12.242-5.072 6.764-6.76 6.764-17.726 0-24.484l-77.209-77.218h323.572c9.562 0 17.316-7.753 17.316-17.315 0-9.562-7.753-17.314-17.316-17.314z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.learnPageBefore {
+    margin-top: 180px;
+    width: 439px;
+    /*height: 204px;*/
+    background: #FFFFFF;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 20px 30px;
+}
+
+.learnPageAfter {
+    background: #FFFFFF;
+    margin-top: 180px;
+    width: 439px;
+    height: 492px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 20px 30px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.answer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}

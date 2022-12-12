@@ -1,0 +1,23 @@
+.tableWrapper {
+    padding-top: 202px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.buttonAddNewPack {
+    width:100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 80px;
+}
+
+.headTable {
+    width: 1008px;
+    background: #EFEFEF;
+    text-align: left;
+    border-collapse: collapse;
+}
