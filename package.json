@@ -2,7 +2,7 @@
   "name": "my-friday",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sssromaz.github.io/Cards",
+  "homepage": "https://romanNikitchyk.github.io/Cards",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
